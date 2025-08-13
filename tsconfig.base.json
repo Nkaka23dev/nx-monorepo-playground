@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@employee-nx-frontend/lib1": ["libs/lib1/src/index.ts"],
+      "@employee-nx-frontend/lib2": ["libs/lib2/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
