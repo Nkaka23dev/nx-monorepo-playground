@@ -49,7 +49,17 @@
       "linter": "eslint",
       "style": "css",
       "unitTestRunner": "jest"
+    },
+    "@nx/angular:library": {
+      "linter": "eslint",
+      "unitTestRunner": "jest"
+    },
+    "@nx/angular:component": {
+      "style": "css"
     }
   },
-  "nxCloudId": "6894e72f036ad621c1a907c0"
+  "nxCloudId": "6894e72f036ad621c1a907c0",
+  "projects": {
+    "lib1": "libs/lib1"
+  }
 }
