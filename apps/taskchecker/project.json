@@ -20,7 +20,7 @@
             "input": "apps/taskchecker/public"
           }
         ],
-        "styles": ["apps/taskchecker/src/styles.css"]
+        "styles": ["apps/taskchecker/src/custom-theme.scss", "apps/taskchecker/src/styles.css"]
       },
       "configurations": {
         "production": {

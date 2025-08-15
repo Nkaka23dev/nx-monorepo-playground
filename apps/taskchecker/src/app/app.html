@@ -1,10 +1,13 @@
 <div class="font-mono">
   <lib-header></lib-header>
-  <main class="max-w-xl md:max-w-2xl lg:max-w-6xl mx-auto py-xl px-md md:px-xl grid grid-cols-1 gap-md md:grid-cols-2 lg:grid-cols-3">
+  <main
+    class="mx-auto md:max-w-2xl lg:max-w-6xl py-xl px-md md:px-xl grid grid-cols-1 gap-md md:grid-cols-2 lg:grid-cols-3"
+  >
     <div class="flex flex-col p-lg bg-secondary-light shadow-md hover:shadow-lg">
       <div class="pb-md text-lg font-bold">Angular</div>
       <p class="mb-xl flex-1">
-        Angular is an application design framework and development platform for creating efficient and sophisticated single-page apps.
+        Angular is an application design framework and development platform for creating efficient and sophisticated
+        single-page apps.
       </p>
       <a
         class="py-sm px-md bg-primary-dark hover:bg-primary text-white flex self-end"
@@ -19,7 +22,8 @@
     <div class="flex flex-col p-lg bg-secondary-light shadow-md hover:shadow-lg">
       <div class="pb-md text-lg font-bold">Tailwind CSS</div>
       <p class="mb-xl flex-1">
-        Tailwind CSS is a utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.
+        Tailwind CSS is a utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90
+        that can be composed to build any design, directly in your markup.
       </p>
       <a
         class="py-sm px-md bg-primary-dark hover:bg-primary text-white flex self-end"
@@ -33,9 +37,7 @@
 
     <div class="flex flex-col p-lg bg-secondary-light shadow-md hover:shadow-lg">
       <div class="pb-md text-lg font-bold">Nx</div>
-      <p class="mb-xl flex-1">
-        The library for web and native user interfaces
-      </p>
+      <p class="mb-xl flex-1">The library for web and native user interfaces</p>
       <a
         class="py-sm px-md bg-primary-dark hover:bg-primary text-white flex self-end"
         href="https://react.dev/"
@@ -44,6 +46,31 @@
       >
         Show me!
       </a>
+    </div>
+    <div class="grid">
+      <button class="mx-auto" mat-raised-button color="primary">Submit</button>
+      <mat-card class="example-card" appearance="outlined">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>Shiba Inu</mat-card-title>
+          <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+        </mat-card-header>
+        <img
+          mat-card-image
+          src="https://material.angular.dev/assets/img/examples/shiba2.jpg"
+          alt="Photo of a Shiba Inu"
+        />
+        <mat-card-content>
+          <p>
+            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small,
+            agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button matButton>LIKE</button>
+          <button matButton>SHARE</button>
+        </mat-card-actions>
+      </mat-card>
     </div>
   </main>
 </div>
